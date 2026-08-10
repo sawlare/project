@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Форма Регистрации</title>
+</head>
+
+<body>
+
+    <!--осн форма-->
+    <form action="/submit" method="post">
+        <fieldset> <!--группировка элементов формы-->
+
+            <legend>Личные данные</legend> <!--название группы-->
+
+            <label for="name">Имя:</label> <!--поле для ввода имени-->
+       <input type="text" id="name" name="name" required>
+
+       <label for="email">Электронная почта:</label> <!--поле для ввода почты-->
+       <input type="email" id="email" name="email" required>
+
+       <label for="password">Пароль:</label> <!--поле для ввода пароля-->
+       <input type="password" id="password" name="password" required>
+
+       <label for="commment">Комментарии:</label> <!--поле для ввода комментариев-->
+       <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+        <label for="country">Country:</label> <!--список для выбора страны-->
+       <select id="country" name="country" required>
+           <option value="">Select your country</option>
+           <option value="us">United States</option>
+           <option value="ca">Canada</option>
+           <option value="rf">Russia</option>
+           <option value="rk">Kazakhstan</option>
+       </select>
+
+       <button type="submit">Отправить</button> <!--кнопка для отправки-->
+
+       <button type="Reset">Сбросить</button> <!--кнопка для сброса-->
+        </fieldset>
+
+</body>
+</html>
