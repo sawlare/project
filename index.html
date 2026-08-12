@@ -2,42 +2,27 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>Форма Регистрации</title>
+   <title>Оценки и успеваемость</title>
+   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <h1>Влияние оценок в школе</h1>
 
-    <!--основная форма-->
-    <form action="/submit" method="post">
-        <fieldset> <!--группировка элементов формы-->
+    <p id = "first-paragraph"> Школьные оценки традиционно считаются главным показателем знаний ученика. Однако современный подход к образованию показывает, что текущие баллы в журнале — это лишь инструмент мониторинга, а не окончательный приговор способностям ребенка.</p>
 
-            <legend>Личные данные</legend> <!--название группы-->
+    <h2>Факторы высокой успеваемости</h2>
 
-            <label for="name">Имя:</label> <!--поле для ввода имени-->
-       <input type="text" id="name" name="name" required>
+    <p id = "second-paragraph"> Хорошие отметки редко бывают результатом чистого везения. Чаще всего за стабильной отличной учебой стоит комплекс правильных привычек и условий:</p>
 
-       <label for="email">Электронная почта:</label> <!--поле для ввода почты-->
-       <input type="email" id="email" name="email" required>
+    <ul class="factors-list">
+        <li>Систематическое выполнение домашних заданий</li>
+        <li>Активное участие в уроках</li>
+        <li>Поддержание интереса к учебе</li>
+        <li>Создание благоприятной обстановки для обучения</li>
+    </ul>
 
-       <label for="password">Пароль:</label> <!--поле для ввода пароля-->
-       <input type="password" id="password" name="password" required>
+    <h1 id = "priority-header">Приоритет css селекторов</h1>
 
-       <label for="commment">Комментарии:</label> <!--поле для ввода комментариев-->
-       <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
-
-        <label for="country">Country:</label> <!--список для выбора страны-->
-       <select id="country" name="country" required>
-           <option value="">Select your country</option>
-           <option value="us">United States</option>
-           <option value="ca">Canada</option>
-           <option value="rf">Russia</option>
-           <option value="rk">Kazakhstan</option>
-       </select>
-
-       <button type="submit">Отправить</button> <!--кнопка для отправки-->
-
-       <button type="Reset">Сбросить</button> <!--кнопка для сброса-->
-        </fieldset>
-
+    <h2 id = "priority-title" class = "priority">Какой цвет применится в итоге?</h2>  
 </body>
 </html>

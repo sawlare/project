@@ -1,0 +1,37 @@
+#first-paragraph {
+    color:blue;
+}
+
+#second-paragraph {
+    color:green;
+}
+
+.factors-list{
+    font-weight: bold;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: brown;
+    etxt-align: center;
+}
+
+#priority-header{
+    color: purple;
+}
+
+#priority-title {
+    color: purple;
+}
+
+.priority{
+    color: orange;
+}
+
+h2 {
+    color: brown;
+}
